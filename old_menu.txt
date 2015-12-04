@@ -1,0 +1,26 @@
+<!-- Menu Bar -->
+        <div class="menu">
+            <!-- <h1>Chicken Sandwich Weekly</h1> -->
+            <ul>
+                <li>
+                    <div class="home">
+                        <a href="#">Home</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="news-letter">
+                        <a href="https://www.google.com/">News Letter</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="subscribe">
+                        <a href="https://www.google.com/">Subscribe!</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="account">
+                        <a href="https://www.google.com/">Account</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
