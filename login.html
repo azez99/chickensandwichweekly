@@ -21,7 +21,7 @@
         <script src="navigation_scroll.js"></script>
         
         <!-- Import Stylesheet -->
-        <link rel="stylesheet" type="text/css" href="index_style.css">
+        <link rel="stylesheet" type="text/css" href="login_style.css">
         
         <!-- Title: PLACEHOLDER -->
         <title>Chicken Sandwich Weekly</title>
@@ -31,10 +31,10 @@
         <!-- Menu -->
         <div id="menu">
             <ul>
-                <li id="home"><a id="cswbgimg" href="#"></a></li>
+                <li id="home"><a id="cswbgimg" href="index.html"></a></li>
                 <li id="news-letter"><a href="https://www.google.com/">News Letter</a></li>
                 <li id="subscribe"><a href="https://www.google.com/">Store</a></li>
-                <li id="account"><a href="login.html">Account</a></li>
+                <li id="account"><a href="#">Account</a></li>
             </ul>
         </div>
         
@@ -43,7 +43,16 @@
         </div>
         
         <div class="spacer"></div>
-        <h1 id="csw-title">CHICKEN SANDWICH WEEKLY</h1>
+        
+        <form id="login" action="login.php" method="post">
+            username<br>
+            <input type="text" name="myusername">
+            <br>
+            password<br>
+            <input type="password" name="mypassword">
+            <br>
+            <input type="submit" value="login" class="">
+        </form>
         
         <!-- JavaScript -->
         <script>

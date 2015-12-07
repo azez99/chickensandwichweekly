@@ -28,31 +28,4 @@ window.onload = function () {
             box.style.top = (scroll) + "px";
         }
     };
-    
-    var acctBox = document.getElementById('account');
-    acctBox.addEventListener('click' , function (alert){
-        prompt("User Name:" , "username");
-        if(acctPrompt != null) {
-            acctBox.innerHTML = acctPrompt;
-        }
-    });
 };
-
-$("#account").click(function(){
-    var acctBox = document.getElementById('account');
-    var acctPrompt = prompt("User Name:" , "username");
-    if(acctPrompt != null) {
-        acctBox.innerHTML = acctPrompt;
-    }
-});
-
-var acctBox = document.getElementById('account');
-
-
-function changeAcct() {
-    var acctBox = document.getElementById('account');
-    var acctPrompt = prompt("User Name:" , "username");
-    if(acctPrompt != null) {
-        acctBox.innerHTML = acctPrompt;
-    }
-}
